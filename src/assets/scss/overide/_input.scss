@@ -1,0 +1,72 @@
+input.ant-input,
+.ant-picker,
+.ant-input-affix-wrapper,
+.ant-select.ant-select-in-form-item,
+.ant-input-number {
+  max-width: 100%;
+  width: 100%;
+}
+
+.ant-input,
+.ant-input-number-input {
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+  height: 3.5rem;
+}
+
+.ant-form-item-label
+  > label.ant-form-item-required:not(
+    .ant-form-item-required-mark-optional
+  ):before {
+  order: 1;
+  position: relative;
+  right: 4px;
+  bottom: 4px;
+}
+
+.ant-form-vertical {
+  .ant-form-item-label
+    > label.ant-form-item-required:not(
+      .ant-form-item-required-mark-optional
+    ):before {
+    right: -4px;
+  }
+}
+
+.ant-input-affix-wrapper {
+  height: 3.5rem;
+
+  .ant-input {
+    height: auto;
+  }
+}
+
+.ant-input-number-handler-wrap {
+  display: none;
+}
+
+.ant-input-number-lg input.ant-input-number-input {
+  height: 3.3rem;
+  padding: 0.2rem 1.1rem;
+}
+
+.ant-input-search-large .ant-input-affix-wrapper,
+.ant-input-search-large .ant-input-search-button {
+  height: 3.5rem;
+}
+.ant-card .ant-card-head {
+  font-weight: 400 !important;
+}
+// .ant-input-group-wrapper {
+//     display: inline-block;
+//     /* width: 100%; */
+//     text-align: start;
+//     vertical-align: top;
+// }
+// .ant-input[disabled]::placeholder {
+//   color: var(--text-primary);
+// }
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border-width: 1px;
+}

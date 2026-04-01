@@ -1,0 +1,102 @@
+:root {
+  --zoom: 1;
+  --device-height: calc(100vh / var(--zoom));
+  // design
+  --primary: #7a1f36;
+  --primary-sub: #8a191d;
+  --primary-gold: #f2a60d;
+  --primary-gold-bg: rgba(242, 166, 13, 0.1);
+  --primary-text: rgba(255, 255, 255, 1);
+  --primary-title: #1d1d1d;
+  --primary-subtitle: rgba(29, 29, 29, 0.9);
+  --primary-bg-highlight: rgba(138, 25, 29, 1);
+  --primary-bg: rgba(246, 243, 244, 1);
+  --primary-bg-sub: rgba(242, 237, 239, 1);
+  --primary-text-highlight: rgba(138, 25, 29, 1);
+  --primary-border: rgba(29, 29, 29, 0.1);
+  --primary-bg-hover: #e2f2fd;
+  --gradient-primary: linear-gradient(
+    135deg,
+    var(--primary) 0%,
+    var(--primary-sub) 100%
+  );
+  //-------------- ---------------
+  --bg-primary: rgba(246, 243, 244, 1);
+  --bg-secondary: #f2f2f2;
+  --bg-thirt: rgba(242, 242, 242, 0.4);
+  --bg-icon-action: #e7edf0ff;
+  --bg-tooltip: #7a1f36;
+
+  --bg-disabled: #e7e7e7;
+  --bg-hover-primary: #e2f2fd;
+  --bg-info: rgba(23, 143, 226, 0.1);
+
+  --bg-success: rgba(21, 181, 74, 0.1);
+  --bg-danger: rgba(230, 50, 50, 0.1);
+  --bg-warning: rgba(179, 190, 18, 0.473);
+
+  --text-primary: #202426;
+  --text-secondary: #636567;
+  --text-ternary: #a4a5a6;
+  --text-disabled: #bcbebe;
+
+  --text-success: #34c759;
+  --text-warning: #ff9500;
+  --text-error: #ff3b30;
+
+  --btn-hover-primary: #5f172a;
+  --hover-primary: #e2f2fd;
+
+  --table-header-bg: #e7e7e7;
+  --table-row-hover-color: #e2f2fd;
+  --table-row-disabled: #e7e7e7;
+
+  --icon-primary: #636567;
+  --icon-secondary: #bcbebe;
+  --icon-gray: #b3b5b5;
+
+  --border-primary: #bcbebe;
+  --border-secondary: #e7e7e7;
+
+  --border-success: rgba(21, 181, 74, 0.5);
+  --border-danger: rgba(230, 50, 50, 0.5);
+  --border-warning: #ff9500;
+
+  --white: #ffffff;
+  --surface-elevated: #ffffff;
+  --error: #e63232;
+  --hover-error: rgb(255, 79, 79);
+  --info: #178fe2;
+  --yellow: #ffcc00;
+  --warning: #ff9500;
+  --purple: #af52de;
+  --success: #34c759;
+
+  --container: 132rem;
+  --sidebar-width: 32rem;
+  --table-row-height: 4.8rem;
+  --header-height: 4.8rem;
+  --header-admin-height: 6rem;
+  --modal-max-height: calc(95vh - 7.2rem); //Trừ đi footer height
+  --base-input-width: 100%;
+  --breadcrumb-height: 6.4rem;
+  --modal-width-lg: 107rem;
+
+  --gap-global: 1.2rem;
+
+  --table-body-height-default: calc(
+    var(--device-height) - var(--header-admin-height) - 26.8rem
+  );
+  --table-tree: calc(
+    var(--device-height) - (4.8rem + 6.4rem + 8.2rem + 11.4rem)
+  );
+
+  // --shadow: rgba(0, 0, 0, 0.2);
+  --shadow: 0px 2px 8px 1px #00000024;
+
+  //chart
+  --chart-green: #34c759;
+  --chart-yellow: #ffcc00;
+  --chart-orange: #ff9500;
+  --chart-red: #ff3b30;
+}

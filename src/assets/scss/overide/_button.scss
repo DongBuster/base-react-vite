@@ -1,0 +1,103 @@
+.ant-btn,
+.ant-btn-primary,
+.ant-btn-default,
+.ant-btn-secondary {
+  padding: 0 1rem !important;
+  line-height: 1 !important;
+}
+
+/* ===== SIZE ===== */
+.ant-btn-lg {
+  font-size: 1.6rem;
+  height: 3.5rem;
+  padding: 0 1.5rem;
+  border-radius: 0.4rem;
+}
+
+/* ===== PRIMARY ===== */
+.ant-btn-primary {
+  background-color: var(--primary);
+  // color: var(--primary-text);
+  border-color: var(--primary);
+
+  &:hover,
+  &:focus {
+    opacity: 0.8;
+  }
+  .anticon-loading {
+    color: var(--primary-text);
+  }
+}
+/* ===== SECONDARY ===== */
+.ant-btn-secondary {
+  background-color: var(--primary-text);
+  color: var(--primary);
+  border-color: var(--primary);
+
+  &:hover,
+  &:focus {
+    background-color: var(--primary-bg-sub);
+    color: var(--primary-text-highlight);
+    border-color: var(--primary-sub);
+  }
+}
+
+/* ===== DEFAULT ===== */
+.ant-btn-default {
+  background-color: var(--primary-text);
+  color: var(--primary);
+  border-color: var(--primary-border);
+
+  .anticon {
+    transition: color 0.25s linear;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: var(--primary-bg-sub);
+    color: var(--primary-text-highlight);
+    border-color: var(--primary-sub);
+
+    .anticon {
+      color: var(--primary-text-highlight) !important;
+    }
+  }
+}
+
+/* ===== TAG BUTTON ===== */
+.ant-btn-tag {
+  cursor: default;
+  pointer-events: none;
+  padding: 0 1.2rem;
+  background: transparent;
+  border-color: transparent;
+  color: var(--primary-subtitle);
+
+  &:hover,
+  &:focus {
+    background: unset;
+    border-color: unset;
+    color: unset;
+  }
+}
+
+/* ===== LINK ===== */
+.ant-btn-color-link.ant-btn-link {
+  color: inherit;
+}
+
+/* ===== CIRCLE ===== */
+.ant-btn-circle {
+  &.--active {
+    background-color: var(--primary-bg-hover);
+
+    svg {
+      color: var(--primary);
+    }
+  }
+}
+
+.ant-btn.ant-btn-circle.ant-btn-link:hover {
+  background-color: var(--primary-bg-hover);
+  color: var(--primary);
+}

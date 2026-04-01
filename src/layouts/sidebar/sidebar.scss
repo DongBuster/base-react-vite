@@ -1,0 +1,30 @@
+.wrapper {
+  width: 275px;
+  flex-shrink: 0;
+  height: 100%;
+  transition: width 0.1s ease;
+  user-select: none;
+}
+.wrapper.Collapsed {
+  width: 60px;
+}
+.ant-menu-inline-collapsed {
+  width: 60px;
+}
+.ant-menu .ant-menu-submenu-title .ant-menu-item-icon {
+  font-size: 18px;
+}
+
+.icon-collapsed {
+  height: 40px;
+  border-top: 1px solid #f0f0f0;
+
+  border-bottom: 1px solid #f0f0f0;
+  border-right: 1px solid #f0f0f0;
+}
+.ant-menu-inline-collapsed
+  > .ant-menu-submenu
+  > .ant-menu-submenu-title
+  .anticon {
+  font-size: 18px;
+}
