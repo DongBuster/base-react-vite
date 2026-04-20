@@ -4,10 +4,10 @@ import { lcStorage } from "./storage";
 
 const tokenManager = () => {
   let accessToken: string | undefined = lcStorage.get(
-    localStorageKeys.accessToken
+    localStorageKeys.accessToken,
   );
   let refreshToken: string | undefined = lcStorage.get(
-    localStorageKeys.refreshToken
+    localStorageKeys.refreshToken,
   );
 
   const isDev = import.meta.env.MODE === "development";

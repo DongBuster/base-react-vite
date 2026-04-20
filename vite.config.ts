@@ -7,9 +7,9 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, 'src'),
+      "@": path.resolve(__dirname, "src"),
       "@config": path.resolve(__dirname, "src/config"),
-      "@configs": path.resolve(__dirname, "src/config"), // alias số nhiều - tương thích với project mẫu
+      "@configs": path.resolve(__dirname, "src/config"),
       "@assets": path.resolve(__dirname, "src/assets"),
       "@constants": path.resolve(__dirname, "src/constants"),
       "@layouts": path.resolve(__dirname, "src/layouts"),
